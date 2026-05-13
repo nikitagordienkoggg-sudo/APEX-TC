@@ -1430,7 +1430,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
-,p_column_label=>'ID'
+,p_column_label=>unistr('\0418\0414')
 ,p_column_type=>'NUMBER'
 ,p_display_text_as=>'HIDDEN_ESCAPE_SC'
 ,p_heading_alignment=>'LEFT'
@@ -1892,7 +1892,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
-,p_column_label=>'ID'
+,p_column_label=>unistr('\0418\0414')
 ,p_column_type=>'NUMBER'
 ,p_display_text_as=>'HIDDEN_ESCAPE_SC'
 ,p_heading_alignment=>'LEFT'
@@ -2322,7 +2322,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
-,p_column_label=>'ID'
+,p_column_label=>unistr('\0418\0414')
 ,p_column_type=>'NUMBER'
 ,p_display_text_as=>'HIDDEN_ESCAPE_SC'
 ,p_heading_alignment=>'LEFT'
@@ -2902,7 +2902,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
-,p_column_label=>'ID'
+,p_column_label=>unistr('\0418\0414')
 ,p_column_type=>'NUMBER'
 ,p_display_text_as=>'HIDDEN_ESCAPE_SC'
 ,p_heading_alignment=>'LEFT'
@@ -3452,7 +3452,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
-,p_column_label=>'ID'
+,p_column_label=>unistr('\0418\0414')
 ,p_column_type=>'NUMBER'
 ,p_display_text_as=>'HIDDEN_ESCAPE_SC'
 ,p_heading_alignment=>'LEFT'
@@ -4005,7 +4005,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
-,p_column_label=>'ID'
+,p_column_label=>unistr('\0418\0414')
 ,p_column_type=>'NUMBER'
 ,p_display_text_as=>'HIDDEN_ESCAPE_SC'
 ,p_heading_alignment=>'LEFT'
@@ -4521,7 +4521,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
-,p_column_label=>'ID'
+,p_column_label=>unistr('\0418\0414')
 ,p_column_type=>'NUMBER'
 ,p_display_text_as=>'HIDDEN_ESCAPE_SC'
 ,p_heading_alignment=>'LEFT'
@@ -5112,7 +5112,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
-,p_column_label=>'ID'
+,p_column_label=>unistr('\0418\0414')
 ,p_column_type=>'NUMBER'
 ,p_display_text_as=>'HIDDEN_ESCAPE_SC'
 ,p_heading_alignment=>'LEFT'
@@ -5661,7 +5661,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
-,p_column_label=>'ID'
+,p_column_label=>unistr('\0418\0414')
 ,p_column_type=>'NUMBER'
 ,p_display_text_as=>'HIDDEN_ESCAPE_SC'
 ,p_heading_alignment=>'LEFT'
@@ -6303,7 +6303,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
-,p_column_label=>'ID'
+,p_column_label=>unistr('\0418\0414')
 ,p_column_type=>'NUMBER'
 ,p_display_text_as=>'HIDDEN_ESCAPE_SC'
 ,p_heading_alignment=>'LEFT'
@@ -6890,7 +6890,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
-,p_column_label=>'ID'
+,p_column_label=>unistr('\0418\0414')
 ,p_column_type=>'NUMBER'
 ,p_display_text_as=>'HIDDEN_ESCAPE_SC'
 ,p_heading_alignment=>'LEFT'
@@ -7478,7 +7478,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
-,p_column_label=>'ID'
+,p_column_label=>unistr('\0418\0414')
 ,p_column_type=>'NUMBER'
 ,p_display_text_as=>'HIDDEN_ESCAPE_SC'
 ,p_heading_alignment=>'LEFT'
@@ -8074,7 +8074,7 @@ wwv_flow_imp_page.create_worksheet_column(
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
-,p_column_label=>'ID'
+,p_column_label=>unistr('\0418\0414')
 ,p_column_type=>'NUMBER'
 ,p_display_text_as=>'HIDDEN_ESCAPE_SC'
 ,p_heading_alignment=>'LEFT'
