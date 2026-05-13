@@ -908,7 +908,7 @@ wwv_flow_imp_shared.create_list_of_values(
 ,p_source_type=>'TABLE'
 ,p_location=>'LOCAL'
 ,p_query_table=>'CLIENTS'
-,p_return_column_name=>unistr('\0418\0414')
+,p_return_column_name=> 'ID'
 ,p_display_column_name=>'CLIENT_TYPE'
 ,p_default_sort_column_name=>'CLIENT_TYPE'
 ,p_default_sort_direction=>'ASC'
@@ -924,7 +924,7 @@ wwv_flow_imp_shared.create_list_of_values(
 ,p_source_type=>'TABLE'
 ,p_location=>'LOCAL'
 ,p_query_table=>'CONTRACTS'
-,p_return_column_name=>unistr('\0418\0414')
+,p_return_column_name=> 'ID'
 ,p_display_column_name=>'IS_ACTIVE'
 ,p_default_sort_column_name=>'IS_ACTIVE'
 ,p_default_sort_direction=>'ASC'
@@ -963,7 +963,7 @@ wwv_flow_imp_shared.create_list_of_values(
 ,p_source_type=>'TABLE'
 ,p_location=>'LOCAL'
 ,p_query_table=>'EMPLOYEES'
-,p_return_column_name=>unistr('\0418\0414')
+,p_return_column_name=> 'ID'
 ,p_display_column_name=>'NAME'
 ,p_default_sort_column_name=>'NAME'
 ,p_default_sort_direction=>'ASC'
@@ -979,7 +979,7 @@ wwv_flow_imp_shared.create_list_of_values(
 ,p_source_type=>'TABLE'
 ,p_location=>'LOCAL'
 ,p_query_table=>'ORDERS'
-,p_return_column_name=>unistr('\0418\0414')
+,p_return_column_name=> 'ID'
 ,p_display_column_name=>'STATUS'
 ,p_default_sort_column_name=>'STATUS'
 ,p_default_sort_direction=>'ASC'
@@ -995,7 +995,7 @@ wwv_flow_imp_shared.create_list_of_values(
 ,p_source_type=>'TABLE'
 ,p_location=>'LOCAL'
 ,p_query_table=>'TARIFFS'
-,p_return_column_name=>unistr('\0418\0414')
+,p_return_column_name=> 'ID'
 ,p_display_column_name=>'CREATED_BY'
 ,p_default_sort_column_name=>'CREATED_BY'
 ,p_default_sort_direction=>'ASC'
@@ -1011,7 +1011,7 @@ wwv_flow_imp_shared.create_list_of_values(
 ,p_source_type=>'TABLE'
 ,p_location=>'LOCAL'
 ,p_query_table=>'TRIPS'
-,p_return_column_name=>unistr('\0418\0414')
+,p_return_column_name=> 'ID'
 ,p_display_column_name=>'STATUS'
 ,p_default_sort_column_name=>'STATUS'
 ,p_default_sort_direction=>'ASC'
@@ -1044,7 +1044,7 @@ wwv_flow_imp_shared.create_list_of_values(
 ,p_source_type=>'TABLE'
 ,p_location=>'LOCAL'
 ,p_query_table=>'VEHICLES'
-,p_return_column_name=>unistr('\0418\0414')
+,p_return_column_name=> 'ID'
 ,p_display_column_name=>'REGISTRATION_NUMBER'
 ,p_default_sort_column_name=>'REGISTRATION_NUMBER'
 ,p_default_sort_direction=>'ASC'
@@ -1060,7 +1060,7 @@ wwv_flow_imp_shared.create_list_of_values(
 ,p_source_type=>'TABLE'
 ,p_location=>'LOCAL'
 ,p_query_table=>'VEHICLE_MODELS'
-,p_return_column_name=>unistr('\0418\0414')
+,p_return_column_name=> 'ID'
 ,p_display_column_name=>'NAME'
 ,p_default_sort_column_name=>'NAME'
 ,p_default_sort_direction=>'ASC'
@@ -1410,7 +1410,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_name=>unistr('\041A\043B\0438\0435\043D\0442\044B')
 ,p_max_row_count_message=>'The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query.'
 ,p_no_data_found_message=>'No data found.'
-,p_base_pk1=>unistr('\0418\0414')
+,p_base_pk1=> 'ID'
 ,p_pagination_type=>'ROWS_X_TO_Y'
 ,p_pagination_display_pos=>'BOTTOM_RIGHT'
 ,p_report_list_mode=>'TABS'
@@ -1426,7 +1426,7 @@ wwv_flow_imp_page.create_worksheet(
 );
 wwv_flow_imp_page.create_worksheet_column(
  p_id=>wwv_flow_imp.id(167910810041114640051)
-,p_db_column_name=>unistr('\0418\0414')
+,p_db_column_name=> 'ID'
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
@@ -1709,7 +1709,7 @@ wwv_flow_imp_page.create_page_item(
 ,p_item_sequence=>10
 ,p_item_plug_id=>wwv_flow_imp.id(167910597319953640031)
 ,p_item_source_plug_id=>wwv_flow_imp.id(167910597319953640031)
-,p_source=>unistr('\0418\0414')
+,p_source=> 'ID'
 ,p_source_type=>'REGION_SOURCE_COLUMN'
 ,p_display_as=>'NATIVE_HIDDEN'
 ,p_is_persistent=>'N'
@@ -1872,7 +1872,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_name=>unistr('\041A\043E\0440\043F\043E\0440\0430\0442\0438\0432\043D\044B\0435 \0434\0435\0442\0430\043B\0438 \043A\043B\0438\0435\043D\0442\0430')
 ,p_max_row_count_message=>'The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query.'
 ,p_no_data_found_message=>'No data found.'
-,p_base_pk1=>unistr('\0418\0414')
+,p_base_pk1=> 'ID'
 ,p_pagination_type=>'ROWS_X_TO_Y'
 ,p_pagination_display_pos=>'BOTTOM_RIGHT'
 ,p_report_list_mode=>'TABS'
@@ -1888,7 +1888,7 @@ wwv_flow_imp_page.create_worksheet(
 );
 wwv_flow_imp_page.create_worksheet_column(
  p_id=>wwv_flow_imp.id(167910829737789640393)
-,p_db_column_name=>unistr('\0418\0414')
+,p_db_column_name=> 'ID'
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
@@ -1921,7 +1921,7 @@ wwv_flow_imp_page.create_worksheet_column(
 );
 wwv_flow_imp_page.create_worksheet_column(
  p_id=>wwv_flow_imp.id(167910830911000640394)
-,p_db_column_name=>unistr('\0418\041D\041D')
+,p_db_column_name=> 'INN'
 ,p_display_order=>30
 ,p_column_identifier=>'D'
 ,p_column_label=>'Inn'
@@ -2163,7 +2163,7 @@ wwv_flow_imp_page.create_page_item(
 ,p_item_sequence=>10
 ,p_item_plug_id=>wwv_flow_imp.id(167910817736886640373)
 ,p_item_source_plug_id=>wwv_flow_imp.id(167910817736886640373)
-,p_source=>unistr('\0418\0414')
+,p_source=> 'ID'
 ,p_source_type=>'REGION_SOURCE_COLUMN'
 ,p_display_as=>'NATIVE_HIDDEN'
 ,p_is_persistent=>'N'
@@ -2227,8 +2227,8 @@ wwv_flow_imp_page.create_page_item(
 ,p_item_sequence=>40
 ,p_item_plug_id=>wwv_flow_imp.id(167910817736886640373)
 ,p_item_source_plug_id=>wwv_flow_imp.id(167910817736886640373)
-,p_prompt=>unistr('\0418\041D\041D')
-,p_source=>unistr('\0418\041D\041D')
+,p_prompt=>'INN'
+,p_source=> 'INN'
 ,p_source_type=>'REGION_SOURCE_COLUMN'
 ,p_display_as=>'NATIVE_NUMBER_FIELD'
 ,p_cSize=>32
@@ -2302,7 +2302,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_name=>unistr('\0414\043E\0433\043E\0432\043E\0440\044B')
 ,p_max_row_count_message=>'The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query.'
 ,p_no_data_found_message=>'No data found.'
-,p_base_pk1=>unistr('\0418\0414')
+,p_base_pk1=> 'ID'
 ,p_pagination_type=>'ROWS_X_TO_Y'
 ,p_pagination_display_pos=>'BOTTOM_RIGHT'
 ,p_report_list_mode=>'TABS'
@@ -2318,7 +2318,7 @@ wwv_flow_imp_page.create_worksheet(
 );
 wwv_flow_imp_page.create_worksheet_column(
  p_id=>wwv_flow_imp.id(167910849079606640739)
-,p_db_column_name=>unistr('\0418\0414')
+,p_db_column_name=> 'ID'
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
@@ -2576,8 +2576,8 @@ wwv_flow_imp_page.create_page_item(
 ,p_item_plug_id=>wwv_flow_imp.id(167910837295178640721)
 ,p_item_source_plug_id=>wwv_flow_imp.id(167910837295178640721)
 ,p_use_cache_before_default=>'NO'
-,p_prompt=>unistr('\0418\0414')
-,p_source=>unistr('\0418\0414')
+,p_prompt=>'ID'
+,p_source=> 'ID'
 ,p_source_type=>'REGION_SOURCE_COLUMN'
 ,p_display_as=>'NATIVE_HIDDEN'
 ,p_label_alignment=>'RIGHT'
@@ -2882,7 +2882,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_name=>unistr('\041C\043E\0434\0435\043B\0438 \0442\0440\0430\043D\0441\043F\043E\0440\0442\0430')
 ,p_max_row_count_message=>'The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query.'
 ,p_no_data_found_message=>'No data found.'
-,p_base_pk1=>unistr('\0418\0414')
+,p_base_pk1=> 'ID'
 ,p_pagination_type=>'ROWS_X_TO_Y'
 ,p_pagination_display_pos=>'BOTTOM_RIGHT'
 ,p_report_list_mode=>'TABS'
@@ -2898,7 +2898,7 @@ wwv_flow_imp_page.create_worksheet(
 );
 wwv_flow_imp_page.create_worksheet_column(
  p_id=>wwv_flow_imp.id(167910871418089641072)
-,p_db_column_name=>unistr('\0418\0414')
+,p_db_column_name=> 'ID'
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
@@ -3164,8 +3164,8 @@ wwv_flow_imp_page.create_page_item(
 ,p_item_plug_id=>wwv_flow_imp.id(167910860330540641057)
 ,p_item_source_plug_id=>wwv_flow_imp.id(167910860330540641057)
 ,p_use_cache_before_default=>'NO'
-,p_prompt=>unistr('\0418\0414')
-,p_source=>unistr('\0418\0414')
+,p_prompt=>'ID'
+,p_source=> 'ID'
 ,p_source_type=>'REGION_SOURCE_COLUMN'
 ,p_display_as=>'NATIVE_HIDDEN'
 ,p_label_alignment=>'RIGHT'
@@ -3432,7 +3432,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_name=>unistr('\0422\0440\0430\043D\0441\043F\043E\0440\0442')
 ,p_max_row_count_message=>'The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query.'
 ,p_no_data_found_message=>'No data found.'
-,p_base_pk1=>unistr('\0418\0414')
+,p_base_pk1=> 'ID'
 ,p_pagination_type=>'ROWS_X_TO_Y'
 ,p_pagination_display_pos=>'BOTTOM_RIGHT'
 ,p_report_list_mode=>'TABS'
@@ -3448,7 +3448,7 @@ wwv_flow_imp_page.create_worksheet(
 );
 wwv_flow_imp_page.create_worksheet_column(
  p_id=>wwv_flow_imp.id(167910889468182641400)
-,p_db_column_name=>unistr('\0418\0414')
+,p_db_column_name=> 'ID'
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
@@ -3715,8 +3715,8 @@ wwv_flow_imp_page.create_page_item(
 ,p_item_plug_id=>wwv_flow_imp.id(167910878097022641387)
 ,p_item_source_plug_id=>wwv_flow_imp.id(167910878097022641387)
 ,p_use_cache_before_default=>'NO'
-,p_prompt=>unistr('\0418\0414')
-,p_source=>unistr('\0418\0414')
+,p_prompt=>'ID'
+,p_source=> 'ID'
 ,p_source_type=>'REGION_SOURCE_COLUMN'
 ,p_display_as=>'NATIVE_HIDDEN'
 ,p_label_alignment=>'RIGHT'
@@ -3985,7 +3985,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_name=>unistr('\0422\0430\0440\0438\0444\044B')
 ,p_max_row_count_message=>'The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query.'
 ,p_no_data_found_message=>'No data found.'
-,p_base_pk1=>unistr('\0418\0414')
+,p_base_pk1=> 'ID'
 ,p_pagination_type=>'ROWS_X_TO_Y'
 ,p_pagination_display_pos=>'BOTTOM_RIGHT'
 ,p_report_list_mode=>'TABS'
@@ -4001,7 +4001,7 @@ wwv_flow_imp_page.create_worksheet(
 );
 wwv_flow_imp_page.create_worksheet_column(
  p_id=>wwv_flow_imp.id(167910908064634641753)
-,p_db_column_name=>unistr('\0418\0414')
+,p_db_column_name=> 'ID'
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
@@ -4256,8 +4256,8 @@ wwv_flow_imp_page.create_page_item(
 ,p_item_plug_id=>wwv_flow_imp.id(167910897676443641737)
 ,p_item_source_plug_id=>wwv_flow_imp.id(167910897676443641737)
 ,p_use_cache_before_default=>'NO'
-,p_prompt=>unistr('\0418\0414')
-,p_source=>unistr('\0418\0414')
+,p_prompt=>'ID'
+,p_source=> 'ID'
 ,p_source_type=>'REGION_SOURCE_COLUMN'
 ,p_display_as=>'NATIVE_HIDDEN'
 ,p_label_alignment=>'RIGHT'
@@ -4501,7 +4501,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_name=>unistr('\0423\0441\043B\043E\0432\0438\044F \043A\043E\043D\0442\0440\0430\043A\0442\0430')
 ,p_max_row_count_message=>'The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query.'
 ,p_no_data_found_message=>'No data found.'
-,p_base_pk1=>unistr('\0418\0414')
+,p_base_pk1=> 'ID'
 ,p_pagination_type=>'ROWS_X_TO_Y'
 ,p_pagination_display_pos=>'BOTTOM_RIGHT'
 ,p_report_list_mode=>'TABS'
@@ -4517,7 +4517,7 @@ wwv_flow_imp_page.create_worksheet(
 );
 wwv_flow_imp_page.create_worksheet_column(
  p_id=>wwv_flow_imp.id(167910950149983642089)
-,p_db_column_name=>unistr('\0418\0414')
+,p_db_column_name=> 'ID'
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
@@ -4796,8 +4796,8 @@ wwv_flow_imp_page.create_page_item(
 ,p_item_plug_id=>wwv_flow_imp.id(167910937750374642071)
 ,p_item_source_plug_id=>wwv_flow_imp.id(167910937750374642071)
 ,p_use_cache_before_default=>'NO'
-,p_prompt=>unistr('\0418\0414')
-,p_source=>unistr('\0418\0414')
+,p_prompt=>'ID'
+,p_source=> 'ID'
 ,p_source_type=>'REGION_SOURCE_COLUMN'
 ,p_display_as=>'NATIVE_HIDDEN'
 ,p_label_alignment=>'RIGHT'
@@ -5092,7 +5092,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_name=>unistr('\0421\043E\0442\0440\0443\0434\043D\0438\043A\0438')
 ,p_max_row_count_message=>'The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query.'
 ,p_no_data_found_message=>'No data found.'
-,p_base_pk1=>unistr('\0418\0414')
+,p_base_pk1=> 'ID'
 ,p_pagination_type=>'ROWS_X_TO_Y'
 ,p_pagination_display_pos=>'BOTTOM_RIGHT'
 ,p_report_list_mode=>'TABS'
@@ -5108,7 +5108,7 @@ wwv_flow_imp_page.create_worksheet(
 );
 wwv_flow_imp_page.create_worksheet_column(
  p_id=>wwv_flow_imp.id(167910977453065642423)
-,p_db_column_name=>unistr('\0418\0414')
+,p_db_column_name=> 'ID'
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
@@ -5373,8 +5373,8 @@ wwv_flow_imp_page.create_page_item(
 ,p_item_plug_id=>wwv_flow_imp.id(167910966396368642407)
 ,p_item_source_plug_id=>wwv_flow_imp.id(167910966396368642407)
 ,p_use_cache_before_default=>'NO'
-,p_prompt=>unistr('\0418\0414')
-,p_source=>unistr('\0418\0414')
+,p_prompt=>'ID'
+,p_source=> 'ID'
 ,p_source_type=>'REGION_SOURCE_COLUMN'
 ,p_display_as=>'NATIVE_HIDDEN'
 ,p_label_alignment=>'RIGHT'
@@ -5641,7 +5641,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_name=>unistr('\0417\0430\043A\0430\0437\044B')
 ,p_max_row_count_message=>'The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query.'
 ,p_no_data_found_message=>'No data found.'
-,p_base_pk1=>unistr('\0418\0414')
+,p_base_pk1=> 'ID'
 ,p_pagination_type=>'ROWS_X_TO_Y'
 ,p_pagination_display_pos=>'BOTTOM_RIGHT'
 ,p_report_list_mode=>'TABS'
@@ -5657,7 +5657,7 @@ wwv_flow_imp_page.create_worksheet(
 );
 wwv_flow_imp_page.create_worksheet_column(
  p_id=>wwv_flow_imp.id(167910999956899642772)
-,p_db_column_name=>unistr('\0418\0414')
+,p_db_column_name=> 'ID'
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
@@ -5947,8 +5947,8 @@ wwv_flow_imp_page.create_page_item(
 ,p_item_plug_id=>wwv_flow_imp.id(167910987418526642755)
 ,p_item_source_plug_id=>wwv_flow_imp.id(167910987418526642755)
 ,p_use_cache_before_default=>'NO'
-,p_prompt=>unistr('\0418\0414')
-,p_source=>unistr('\0418\0414')
+,p_prompt=>'ID'
+,p_source=> 'ID'
 ,p_source_type=>'REGION_SOURCE_COLUMN'
 ,p_display_as=>'NATIVE_HIDDEN'
 ,p_label_alignment=>'RIGHT'
@@ -6283,7 +6283,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_name=>unistr('\0413\0440\0443\0437')
 ,p_max_row_count_message=>'The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query.'
 ,p_no_data_found_message=>'No data found.'
-,p_base_pk1=>unistr('\0418\0414')
+,p_base_pk1=> 'ID'
 ,p_pagination_type=>'ROWS_X_TO_Y'
 ,p_pagination_display_pos=>'BOTTOM_RIGHT'
 ,p_report_list_mode=>'TABS'
@@ -6299,7 +6299,7 @@ wwv_flow_imp_page.create_worksheet(
 );
 wwv_flow_imp_page.create_worksheet_column(
  p_id=>wwv_flow_imp.id(167911019437323643137)
-,p_db_column_name=>unistr('\0418\0414')
+,p_db_column_name=> 'ID'
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
@@ -6577,8 +6577,8 @@ wwv_flow_imp_page.create_page_item(
 ,p_item_plug_id=>wwv_flow_imp.id(167911007345284643118)
 ,p_item_source_plug_id=>wwv_flow_imp.id(167911007345284643118)
 ,p_use_cache_before_default=>'NO'
-,p_prompt=>unistr('\0418\0414')
-,p_source=>unistr('\0418\0414')
+,p_prompt=>'ID'
+,p_source=> 'ID'
 ,p_source_type=>'REGION_SOURCE_COLUMN'
 ,p_display_as=>'NATIVE_HIDDEN'
 ,p_label_alignment=>'RIGHT'
@@ -6870,7 +6870,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_name=>unistr('\041C\0430\0440\0448\0440\0443\0442\044B')
 ,p_max_row_count_message=>'The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query.'
 ,p_no_data_found_message=>'No data found.'
-,p_base_pk1=>unistr('\0418\0414')
+,p_base_pk1=> 'ID'
 ,p_pagination_type=>'ROWS_X_TO_Y'
 ,p_pagination_display_pos=>'BOTTOM_RIGHT'
 ,p_report_list_mode=>'TABS'
@@ -6886,7 +6886,7 @@ wwv_flow_imp_page.create_worksheet(
 );
 wwv_flow_imp_page.create_worksheet_column(
  p_id=>wwv_flow_imp.id(167911042762945643478)
-,p_db_column_name=>unistr('\0418\0414')
+,p_db_column_name=> 'ID'
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
@@ -7163,8 +7163,8 @@ wwv_flow_imp_page.create_page_item(
 ,p_item_plug_id=>wwv_flow_imp.id(167911030912297643463)
 ,p_item_source_plug_id=>wwv_flow_imp.id(167911030912297643463)
 ,p_use_cache_before_default=>'NO'
-,p_prompt=>unistr('\0418\0414')
-,p_source=>unistr('\0418\0414')
+,p_prompt=>'ID'
+,p_source=> 'ID'
 ,p_source_type=>'REGION_SOURCE_COLUMN'
 ,p_display_as=>'NATIVE_HIDDEN'
 ,p_label_alignment=>'RIGHT'
@@ -7458,7 +7458,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_name=>unistr('\0420\0435\0439\0441\044B')
 ,p_max_row_count_message=>'The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query.'
 ,p_no_data_found_message=>'No data found.'
-,p_base_pk1=>unistr('\0418\0414')
+,p_base_pk1=> 'ID'
 ,p_pagination_type=>'ROWS_X_TO_Y'
 ,p_pagination_display_pos=>'BOTTOM_RIGHT'
 ,p_report_list_mode=>'TABS'
@@ -7474,7 +7474,7 @@ wwv_flow_imp_page.create_worksheet(
 );
 wwv_flow_imp_page.create_worksheet_column(
  p_id=>wwv_flow_imp.id(167911062219675643815)
-,p_db_column_name=>unistr('\0418\0414')
+,p_db_column_name=> 'ID'
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
@@ -7756,8 +7756,8 @@ wwv_flow_imp_page.create_page_item(
 ,p_item_plug_id=>wwv_flow_imp.id(167911049899800643799)
 ,p_item_source_plug_id=>wwv_flow_imp.id(167911049899800643799)
 ,p_use_cache_before_default=>'NO'
-,p_prompt=>unistr('\0418\0414')
-,p_source=>unistr('\0418\0414')
+,p_prompt=>'ID'
+,p_source=> 'ID'
 ,p_source_type=>'REGION_SOURCE_COLUMN'
 ,p_display_as=>'NATIVE_HIDDEN'
 ,p_label_alignment=>'RIGHT'
@@ -8054,7 +8054,7 @@ wwv_flow_imp_page.create_worksheet(
 ,p_name=>unistr('\041E\0442\0441\043B\0435\0436\0438\0432\0430\043D\0438\0435 \0440\0435\0439\0441\0430')
 ,p_max_row_count_message=>'The maximum row count for this report is #MAX_ROW_COUNT# rows.  Please apply a filter to reduce the number of records in your query.'
 ,p_no_data_found_message=>'No data found.'
-,p_base_pk1=>unistr('\0418\0414')
+,p_base_pk1=> 'ID'
 ,p_pagination_type=>'ROWS_X_TO_Y'
 ,p_pagination_display_pos=>'BOTTOM_RIGHT'
 ,p_report_list_mode=>'TABS'
@@ -8070,7 +8070,7 @@ wwv_flow_imp_page.create_worksheet(
 );
 wwv_flow_imp_page.create_worksheet_column(
  p_id=>wwv_flow_imp.id(167911082894092644153)
-,p_db_column_name=>unistr('\0418\0414')
+,p_db_column_name=> 'ID'
 ,p_display_order=>0
 ,p_is_primary_key=>'Y'
 ,p_column_identifier=>'A'
@@ -8335,8 +8335,8 @@ wwv_flow_imp_page.create_page_item(
 ,p_item_plug_id=>wwv_flow_imp.id(167911071098981644134)
 ,p_item_source_plug_id=>wwv_flow_imp.id(167911071098981644134)
 ,p_use_cache_before_default=>'NO'
-,p_prompt=>unistr('\0418\0414')
-,p_source=>unistr('\0418\0414')
+,p_prompt=>'ID'
+,p_source=> 'ID'
 ,p_source_type=>'REGION_SOURCE_COLUMN'
 ,p_display_as=>'NATIVE_HIDDEN'
 ,p_label_alignment=>'RIGHT'
